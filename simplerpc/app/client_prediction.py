@@ -27,8 +27,8 @@ def run():
 
     # sentiment analysis
     container4 = xmlrpc.client.ServerProxy('http://localhost:12000')
-    prediction1 = container4.Predict(tockenized_twitter_data)
-    print(prediction1)
+    prediction_1 = container4.Predict(tockenized_twitter_data)
+    print(prediction_1)
     print("\nTwitter data Sentiment Analysis FINISHED")
 
     # LSTM
